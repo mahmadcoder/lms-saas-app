@@ -170,7 +170,7 @@ body {
     @apply bg-cta-gold rounded-4xl px-3 py-1.5 text-black;
   }
   .btn-primary {
-    @apply bg-primary text-white rounded-xl cursor-pointer px-4 py-2 flex items-center gap-2;
+    @apply bg-[#FE5933] text-white rounded-xl cursor-pointer px-4 py-2 flex items-center gap-2;
   }
   .navbar {
     @apply flex items-center justify-between mx-auto w-full px-14 py-4 bg-white max-sm:px-4;
@@ -208,10 +208,10 @@ body {
   }
 
   .transcript {
-    @apply relative flex flex-col gap-4 w-full items-center pt-10 flex-grow overflow-hidden;
+    @apply relative flex flex-col w-full pt-4 flex-grow min-h-[200px] overflow-hidden;
   }
   .transcript-message {
-    @apply overflow-y-auto w-full flex flex-col gap-4 max-sm:gap-2 pr-2 h-full text-2xl;
+    @apply overflow-y-auto w-full flex flex-col gap-4 max-sm:gap-2 pr-2 text-2xl flex-1 min-h-0;
   }
   .transcript-fade {
     @apply pointer-events-none absolute bottom-0 left-0 right-0 h-40 max-sm:h-20 bg-gradient-to-t from-background via-background/90 to-transparent z-10;
